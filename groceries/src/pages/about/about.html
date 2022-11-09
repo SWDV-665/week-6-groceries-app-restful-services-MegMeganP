@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      About
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<div>
+  <h1>Megan Perry</h1>
+  <p>Maryville Student ID: XXXXXX4</p>
+  <p>(entire ID number hidden for security purposes)</p>
+</div>
+<div>
+  <br><br>
+  <h1 text-center>Favorite Grocery Stores</h1>
+  <p text-center>Click on basic list store to remove.</p>
+</div>
+<div>
+  <ion-list>
+    <button ion-item *ngFor="let store of stores; let i = index" (click)="removeStore(store, index)">
+      {{ store.name }}
+    </button>  
+  </ion-list>
+</div>
+
+<ion-fab bottom right> <!--fab float button component-->
+  <button (click)="addStore()" ion-fab mini><ion-icon name="add"></ion-icon></button>
+</ion-fab>
+
+</ion-content>
