@@ -1,5 +1,9 @@
 # week-6-groceries-app-restful-services-MegMeganP
 week-6-groceries-app-restful-services-MegMeganP created by GitHub Classroom
+
+Update---The bug is fixed on in groceries3.  The line 13 wasn't updated from weeks 4/5 to just "item" for week 6.  I have already installed Ionic v6 on my machine for the final project, but I will reinstall the v3 again to test this for sure.  The api still works, as it did before.
+
+Old:
 The database endpoints work great-I was able to get the GET to retrieve an individual item by ID.
 The original video has the working demo of the database/HTTP methods
 I attempted the app for many hours.  The "groceries" app seems to have had a bug somewhere that I cannot find.
